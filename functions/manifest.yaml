@@ -14,7 +14,8 @@ packages:
       get-details:
         # source for the action; in this case it is a folder
         function: details
-        runtime: nodejs:12
+        runtime: nodejs:16
+        buildpack: sdk-for-nodejs
         # publish the action as a web action
         web: yes
     apis:
