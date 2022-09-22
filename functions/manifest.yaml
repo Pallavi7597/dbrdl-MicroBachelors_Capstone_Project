@@ -15,7 +15,7 @@ packages:
         # source for the action; in this case it is a folder
         function: details
         runtime: nodejs:16.15.1
-        buildpack: nodejs_buildpack
+        buildpacks: nodejs_buildpack
         # publish the action as a web action
         web: yes
     apis:
